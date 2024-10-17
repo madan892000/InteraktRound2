@@ -1,8 +1,8 @@
 const express =require("express");
 const { default: mongoose } = require("mongoose");
 const app = express();
-const UserDetails = require("./models/Schema1")
-const userlogs = require("./models/Schema2")
+const UserDetails = require("./Schema1")
+const userlogs = require("./Schema2")
 const bodyParser = require("body-parser")
 const jwt = require("jsonwebtoken")
 const bcrypt = require("bcryptjs")
